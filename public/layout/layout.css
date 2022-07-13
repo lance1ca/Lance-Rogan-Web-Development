@@ -1,8 +1,50 @@
 body{
     /* background-color: #30362F; */
     margin:0;
+    padding: 0;
 }
 
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    color:white;
+}
+
+.logo{
+    font-size: 26px;
+    margin-left:2.5%;
+}
+
+
+.nav-bar-items ul{
+    margin:0;
+    padding:0;
+    display: flex;
+}
+
+
+.nav-bar-items li{
+    list-style: none;
+}
+
+.nav-bar-items a{
+    text-decoration: none;
+    color:white;
+    padding:26px;
+    display:block;
+}
+
+.nav-bar-items li:hover{
+    background-color:#555555;
+}
+
+
+
+
+/* 
 .nav-bar{
     
     display: flex;
@@ -47,4 +89,4 @@ body{
 .nav-bar-item a{
     text-decoration: none;
     color: white;
-}
+} */
